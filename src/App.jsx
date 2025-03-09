@@ -8,13 +8,11 @@ export default function App() {
     const { mode, setMode } = useContext(AppContext);
 
     return (
-        <>
             <div className={`${mode === "light" ? styles.lightMode : styles.container}`}>
                 <div className={styles.main}>
                     <Header />
                     <Main />
                 </div>
             </div>
-        </>
     )
 }
