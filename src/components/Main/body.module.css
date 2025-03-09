@@ -217,21 +217,21 @@
 }
 
 .cards .totalCard {
-    background-image: url("./card1.svg");
+    background-image: url("public/card1.svg");
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #D3A0FA;
 }
 
 .cards .wordCard {
-    background-image: url("./card2.svg");
+    background-image: url("public/card2.svg");
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #FF9F00;
 }
 
 .cards .sentenceCard {
-    background-image: url("./card3.svg");
+    background-image: url("public/card3.svg");
     background-repeat: no-repeat;
     background-position-x: right;
     background-color: #FE8159;
