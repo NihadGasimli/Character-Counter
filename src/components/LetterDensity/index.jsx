@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from "react";
-import styles from "./LetterDensity.module.css"; // Import CSS Module
+import styles from "./letterdensity.module.css"; // Import CSS Module
 import { AppContext } from "../../context/AppContext";
 
 const LetterDensity = ({ text = "" }) => { // Default value for text
