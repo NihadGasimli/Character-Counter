@@ -9,7 +9,7 @@ export default function App() {
 
     return (
         <>
-            <div className={`${styles.container} ${mode === "light" ? styles.lightMode : null}`}>
+            <div className={`${mode === "light" ? styles.lightMode : styles.container}`}>
                 <div className={styles.main}>
                     <Header />
                     <Main />
