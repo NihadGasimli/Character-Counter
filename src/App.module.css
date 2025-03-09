@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    background-image: url("./bg.svg");
+    display: flex;
+    justify-content: center;
+}
+
+.lightMode {
+    background-image: url("./bgLight.svg");
+}
+
+.main {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+@media (max-width: 768px) {
+    .main{
+        width: 90%;
+    }
+}

@@ -1,0 +1,59 @@
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.logoAndText {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.logoAndText h1 {
+    font-family: DM Sans;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: -1px;
+    text-align: center;
+    color: #E4E4EF;
+}
+
+.logo {
+    width: 33px;
+}
+
+.changeModeButton {
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    cursor: pointer;
+    background-color: #2A2B37;
+    border: 0;
+}
+
+.lightMode .changeModeButton {
+    background-color: #F2F2F7;
+}
+
+.lightMode .logoAndText h1 {
+    color: #12131A;
+}
+
+.modeLogo {
+    width: 18px;
+    height: 18px;
+}
+
+@media (max-width: 768px) {
+
+    .logoAndText h1 {
+        font-size: 18px;
+    }
+
+    .logo{
+        width: 24px;
+    }
+}
