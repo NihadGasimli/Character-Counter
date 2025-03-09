@@ -6,13 +6,13 @@
 
 .container {
     width: 100%;
-    background-image: url("/bg.svg");
+    background-image: url("public/bg.svg");
     display: flex;
     justify-content: center;
 }
 
 .lightMode {
-    background-image: url("/bgLight.svg");
+    background-image: url("public/bgLight.svg");
         width: 100%;
     display: flex;
     justify-content: center;
