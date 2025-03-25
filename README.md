@@ -1,12 +1,34 @@
-# React + Vite
+# Character Counter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Live Demo:** [nihadgasimli-character-counter.vercel.app](https://nihadgasimli-character-counter.vercel.app)
 
-Currently, two official plugins are available:
+Character Counter is a web application built with React that helps you analyze text in real-time. It counts characters, words, and sentences while providing options to exclude spaces and set character limits. It also shows letter density to help users better understand their text. The app is designed to be fully responsive with both dark and light modes.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Real-time text analysis:** Displays the total count of characters, words, and sentences as you type.
+- **Exclude spaces option:** Allows you to exclude spaces from the character count for more precise analysis.
+- **Character limit setting:** Lets you set a custom character limit and track how many characters are remaining.
+- **Letter density:** Shows the ratio of letters to total characters, giving insight into the text's structure.
+- **Responsive design:** Optimized for all devices, from mobile phones to desktop screens.
+- **Dark/Light mode:** Switch between dark and light themes for a personalized experience.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **CSS**: Custom CSS and media queries for responsive design.
+- **JavaScript**: Used for dynamic functionality like real-time counting and density calculation.
+
+## Usage
+
+- Start typing or paste any text into the input field, and the app will display:
+  - **Total character count** (including or excluding spaces)
+  - **Word count**
+  - **Sentence count**
+  - **Letter density** (ratio of letters to total characters)
+- Set a custom **character limit** and track remaining characters.
+- Toggle between **dark and light mode** using the theme switch button.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
